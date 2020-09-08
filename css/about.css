@@ -1,0 +1,370 @@
+.about__1 .about__1-photo {
+    width: 48.2%;
+}
+
+.internal-page {
+    padding: 92px 0;
+}
+
+.about__1 .about__1-content {
+    width: 46.8%;
+    padding-top: 42px;
+}
+
+.about__1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.internal__content .internal-title h3 {
+    color: #03b052;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.internal__content .internal-title h5 {
+    color: #03b052;
+    font-size: 24px;
+}
+
+.internal__content p,
+.internal__content li {
+    font-size: 21px;
+    color: #111111;
+    font-family: "Century Schoolbook";
+    letter-spacing: 0.3px;
+    line-height: 1.7;
+}
+
+.internal__content span {
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.about__landscape {
+    padding-right: 212px;
+}
+
+.about__2 {
+    padding-left: 212px;
+    margin-top: 72px;
+    position: relative;
+}
+
+.about__2-photo {
+    position: absolute;
+    top: 85px;
+    right: 0;
+}
+
+.about__2-content {
+    width: 64.5%;
+    margin-right: -90px;
+    padding: 52px 135px 52px 70px;
+    background-color: #cdefdc;
+}
+
+.about__3 {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 212px;
+}
+
+.about__3-photo {
+    width: 16%;
+}
+
+.about__3-content {
+    width: 82%;
+    position: relative;
+}
+
+.about__1-content h5 {
+    margin-bottom: 36px;
+}
+
+.about__3-content p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left: 0;
+}
+
+
+/* ------------------------00000000000000000000000000000000000000000000000000000000000000 */
+
+.our__services-collum {
+    width: 32.34%;
+}
+
+.our__services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1268px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ser-title h3 {
+    color: #03b052;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 48%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left: 25px;
+    right: 25px;
+    margin-bottom: 0;
+}
+
+.ser-title {
+    position: relative;
+    display: block;
+    height: 98px;
+    width: 95%;
+    height: 98px;
+    right: 0;
+    background-color: #fae10a;
+    margin-left: auto;
+    margin-top: -35px;
+}
+
+.ser-list {
+    padding-left: 50px;
+    margin-top: 15px;
+}
+
+.about__2-content ul {
+    margin-bottom: 0;
+    padding-left: 29px;
+    margin-top: 15px;
+}
+
+.internal__content ul {
+    list-style: none;
+}
+
+.internal__content ul li {
+    position: relative;
+}
+
+.ser-list ul {
+    padding-left: 20px;
+}
+
+.internal__content ul li:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: #03b052;
+    top: 15px;
+    left: -20px;
+}
+
+@media (max-width: 1600px) {
+    .about__landscape {
+        padding-right: 120px;
+    }
+    .about__2 {
+        padding-left: 120px;
+    }
+    .about__3 {
+        padding-left: 120px;
+    }
+    .internal__content .internal-title h3 {
+        font-size: 35px;
+    }
+    .internal__content .internal-title h5 {
+        font-size: 21px;
+    }
+    .internal__content p,
+    .internal__content li {
+        font-size: 19px;
+    }
+    .ser-title h3 {
+        font-size: 25px;
+        left: 20px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .about__2 {
+        padding-left: 0;
+    }
+    .about__landscape {
+        padding-right: 0;
+    }
+    .about__3 {
+        padding-left: 0;
+    }
+    .our__services {
+        max-width: 100%;
+    }
+    .our__services-collum .ser-photo {
+        width: 95%;
+    }
+    .ser-title h3 {
+        font-size: 23px;
+    }
+    .ser-title {
+        height: 90px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .about__1 .about__1-content {
+        width: 50%;
+        padding-top: 30px;
+    }
+    .internal__content .internal-title h3 {
+        font-size: 32px;
+    }
+    .internal__content .internal-title h5 {
+        font-size: 18px;
+    }
+    .internal__content p,
+    .internal__content li {
+        font-size: 17px;
+    }
+    .about__2-content {
+        width: 58.5%;
+        margin-right: 0;
+        padding: 40px 75px 40px 40px;
+    }
+    .about__2-photo {
+        top: 60px;
+        width: 46%;
+    }
+    .about__3 {
+        margin-top: 120px;
+    }
+    .ser-title h3 {
+        font-size: 22px;
+        left: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .internal__content .internal-title h3 {
+        font-size: 28px;
+    }
+    .internal-page {
+        padding: 65px 0;
+    }
+    .about__1 .about__1-photo {
+        width: 45.2%;
+    }
+    .internal__content .internal-title h5 {
+        font-size: 17px;
+    }
+    .about__1-content h5 {
+        margin-bottom: 20px;
+    }
+    .about__2 {
+        margin-top: 40px;
+    }
+    .about__3 {
+        margin-top: 60px;
+    }
+    .about__3-content {
+        width: 82%;
+    }
+    .header__banner .banner__internal {
+        width: 100%;
+    }
+    .banner__internal .h__photo {
+        position: relative;
+        height: 60vh;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .banner__internal .h__photo img {
+        display: none;
+    }
+    .our__services-collum {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about__1 .about__1-photo {
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .about__1 .about__1-content {
+        width: 100%;
+        padding-top: 0;
+        order: 1;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .about__2-content {
+        width: 100%;
+        padding: 30px;
+    }
+    .about__2-photo {
+        top: 0;
+        position: relative;
+        margin-top: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    .about__3-content {
+        width: 81%;
+    }
+    .internal-page {
+        padding: 40px 0;
+    }
+    .about__3-photo {
+        width: 25%;
+        text-align: center;
+    }
+    .about__3-content {
+        width: 70%;
+    }
+    .our__services-collum {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .about__3-content p {
+        position: relative;
+    }
+    .about__2-content {
+        width: 100%;
+        padding: 20px;
+    }
+    .our__services-collum {
+        width: 100%;
+    }
+    .ser-title {
+        height: 80px;
+    }
+    .ser-list {
+        padding-left: 35px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .ser-title h3 {
+        font-size: 21px;
+    }
+}

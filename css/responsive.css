@@ -1,0 +1,1176 @@
+@media (max-width: 1800px) {
+    .auto-container {
+        max-width: 1600px;
+    }
+    .header__logo {
+        width: 25%;
+    }
+    .banner__wrap .h__content h3 {
+        font-size: 48px;
+    }
+    .banner__wrap .h__content {
+        top: 55.5%;
+    }
+    .first-title h3 {
+        font-size: 50px;
+    }
+    .list__row-name h6 {
+        font-size: 22px;
+    }
+    .maintenance__content-list .collum-70 p {
+        font-size: 20px;
+    }
+    .maintenance {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .ourwork__slide .collum-service {
+        padding-right: 180px;
+    }
+    .collum-service h5 {
+        padding: 19px;
+        font-size: 30px;
+        min-width: 690px;
+        display: inline-block;
+    }
+    .collum-service ul li {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+    .ourwork__slide .slick-initialized .slick-slide {
+        padding: 0 30px;
+    }
+    .box__model-main li {
+        font-size: 25px;
+    }
+    .box__model {
+        padding: 30px 25px;
+    }
+    .contact__detail-title h3 {
+        font-size: 40px;
+    }
+    .contact__detail .callme__text span {
+        font-size: 23px;
+    }
+    .contact__detail .callme__text p {
+        font-size: 32px;
+    }
+    .contact__detail .callme__phone p a {
+        font-size: 40px;
+    }
+    .contact__detail-services ul li {
+        font-size: 20px;
+    }
+    .free-est h5 {
+        font-size: 30px;
+    }
+    .free-est ul li {
+        font-size: 25px;
+    }
+    .contact__form-title h3 {
+        font-size: 42px;
+    }
+    .contact__detail-services ul {
+        padding: 20px 60px;
+    }
+}
+
+@media (max-width: 1700px) {
+    .header__note ul::after {
+        width: 212px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .auto-container {
+        max-width: 1400px;
+    }
+    .banner__wrap .h__content h6 {
+        font-size: 32px;
+    }
+    .banner__wrap .h__content h3 {
+        font-size: 42px;
+    }
+    .banner__wrap .h__content {
+        top: 50%;
+    }
+    .header__note ul::after {
+        width: 116px;
+    }
+    .header__note li {
+        font-size: 20px;
+    }
+    .header__note li::before {
+        top: 8px;
+    }
+    .first-title h3 {
+        font-size: 45px;
+    }
+    .maintenance__content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .ourwork__slide .collum-service {
+        padding-right: 0;
+    }
+    /* .collum-service h5 {
+        margin-left: -35%;
+    } */
+    .footer__wrapper {
+        padding: 40px 30px;
+    }
+    .box__model {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .collum-service h5 {
+        font-size: 28px;
+    }
+    /* .ourwork__slide .collum-photo {
+        width: 100%;
+    } */
+    .internal__content ul li:before {
+        top: 13px;
+    }
+    .contact__wrapper {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contact__detail-title {
+        margin-top: -5px;
+    }
+    .contact__detail-title h3 {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+    .contact__detail .callme__phone p a {
+        font-size: 35px;
+    }
+    .contact__form-title h3 {
+        font-size: 38px;
+    }
+    .nav-menu li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .collum-service h5 {
+        font-size: 25px;
+        min-width: 563px;
+    }
+    .collum-service .click-title {
+        margin-left: -50%;
+    }
+    .header__logo {
+        width: 30%;
+    }
+    .auto-container {
+        max-width: 1170px;
+    }
+    .header__logo a img {
+        width: 240px;
+    }
+    .header__phone p {
+        width: auto;
+        font-size: 0;
+    }
+    .header__phone p::before {
+        display: none;
+    }
+    .header__phone p:after {
+        top: 5px;
+        left: 20px;
+    }
+    .header__phone a {
+        font-size: 21px;
+    }
+    .header__phone-inner {
+        margin-top: 37px;
+    }
+    .banner__wrap .h__content h6 {
+        font-size: 28px;
+    }
+    .banner__wrap .h__content h3 {
+        font-size: 35px;
+    }
+    .header__banner {
+        padding-bottom: 60px;
+    }
+    .header__arrow {
+        top: 25px;
+    }
+    .maintenance__content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ourwork-title {
+        margin-bottom: 17px;
+    }
+    .collum-service h5 {
+        font-size: 25px;
+    }
+    .collum-service ul li {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+    .ourwork__slide .collum-service {
+        padding-top: 30px;
+    }
+    .box__model-top h3 {
+        font-size: 28px;
+    }
+    .box__model {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .box__model-main li {
+        font-size: 23px;
+    }
+    .parallax {
+        height: 350px;
+    }
+    .parallax .callme__text span {
+        font-size: 18px;
+    }
+    .parallax .callme__text p {
+        font-size: 20px;
+    }
+    .parallax .callme__phone a {
+        font-size: 20px;
+    }
+    .parallax .callme__phone {
+        padding: 15px 20px 10px 22px;
+    }
+    .parallax .callme {
+        right: 14%;
+        top: 23%;
+    }
+    .ourwork {
+        margin-bottom: 50px;
+    }
+    .nav-menu li a::after {
+        top: 63%;
+    }
+    .contact__wrapper .contact__photo {
+        margin-right: 0;
+    }
+    .contact__wrapper {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .contact__detail-title h3 {
+        font-size: 35px;
+    }
+    .contact__detail .callme__text span {
+        font-size: 21px;
+    }
+    .contact__detail .callme__text p {
+        font-size: 30px;
+    }
+    .contact__detail .callme__phone p a {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    .contact__detail .callme__phone p {
+        font-size: 22px;
+    }
+    .contact__detail-services ul li {
+        font-size: 19px;
+    }
+    .contact__detail-title h3 {
+        margin-bottom: 20px;
+    }
+    .contact__detail-contact {
+        margin-bottom: 30px;
+    }
+    .contact__detail-services ul::after {
+        width: 211px;
+    }
+    .free-est ul li {
+        font-size: 22px;
+    }
+    .free-est h5 {
+        font-size: 26px;
+    }
+    .contact__form-title h3 {
+        font-size: 32px;
+    }
+    .wc-input {
+        height: 55px;
+    }
+    .ouner-textarea .wc-input {
+        height: 125px;
+    }
+    .control-button p {
+        font-size: 20px;
+    }
+    .control-button {
+        width: 166px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header__note ul::after {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .collum-service .click-title {
+        margin-left: -45%;
+    }
+    .auto-container {
+        max-width: 960px;
+    }
+    .header__logo {
+        width: auto;
+    }
+    .header__logo a img {
+        width: 215px;
+    }
+    .header__logo a {
+        width: auto;
+    }
+    .header__nav {
+        width: 60%;
+    }
+    .header__phone a {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .header__phone p {
+        display: none;
+    }
+    .header__note li {
+        font-size: 19px;
+        line-height: 1.7;
+    }
+    .header__note ul {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+    }
+    .first-title h3 {
+        font-size: 40px;
+    }
+    .maintenance__content-list .collum-70 p {
+        font-size: 18px;
+    }
+    .list__row-name h6 {
+        font-size: 21px;
+    }
+    .maintenance {
+        padding-top: 45px;
+        padding-bottom: 40px;
+    }
+    .ourwork::before {
+        width: 46.5%;
+        height: 58%;
+    }
+    .collum-service h5 {
+        font-size: 23px;
+        padding: 10px;
+    }
+    .ourwork__slide .slick-initialized .slick-slide {
+        padding: 0 15px;
+    }
+    .collum-service ul {
+        margin-top: 10px;
+    }
+    .parallax {
+        height: 300px;
+    }
+    .parallax .callme {
+        right: 5%;
+        top: 17%;
+    }
+    .box__model-main li {
+        font-size: 21px;
+    }
+    .box__model {
+        padding: 20px 20px;
+    }
+    .box__model {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .box__model-main li:not(:first-child)::after {
+        top: 15px;
+    }
+    .footer__wrapper .text-size p {
+        font-size: 18px;
+    }
+    .footer__wrapper .text-size a {
+        font-size: 17px;
+    }
+    .footer__wrapper {
+        padding: 40px 0;
+    }
+    .footer__wrapper-social {
+        width: 21%;
+    }
+    .footer__wrapper-copyright {
+        width: 48%;
+        text-align: center;
+    }
+    .footer__wrapper {
+        padding: 30px 0 20px 0;
+    }
+    .contact__wrapper .contact__photo {
+        width: 56%;
+    }
+    .contact__detail {
+        width: 40%;
+    }
+    .contact__detail-title h3 {
+        font-size: 30px;
+    }
+    .contact__detail .callme__text span {
+        font-size: 19px;
+    }
+    .contact__detail .callme__text p {
+        font-size: 28px;
+    }
+    .contact__detail .callme__phone p a {
+        font-size: 25px;
+    }
+    .contact__detail .callme__phone p {
+        font-size: 19px;
+    }
+    .contact__detail-services ul::after {
+        display: none;
+    }
+    .contact__detail-services ul li {
+        font-size: 18px;
+    }
+    .free-est {
+        margin-top: 30px;
+    }
+    .free-est h5 {
+        width: 100%;
+    }
+    .free-est ul li:after {
+        position: absolute;
+        content: "";
+        width: 6px;
+        height: 6px;
+        top: 53%;
+        left: 10px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        background-color: #131313;
+        border-radius: 50%;
+    }
+    .free-est ul li {
+        width: 50%;
+        padding-left: 30px;
+    }
+    .free-est ul li:nth-child(2):after,
+    .free-est ul li:not(:nth-child(2)):after {
+        position: absolute;
+        content: "";
+        width: 6px;
+        height: 6px;
+        top: 53%;
+        left: 10px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        background-color: #131313;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-menu .active a::after {
+        height: 80px;
+    }
+    .header__logo a {
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+    .header__logo a img {
+        width: 180px;
+    }
+    .nav-menu li {
+        font-size: 18px;
+    }
+    .header__nav {
+        width: 70%;
+    }
+    .nav-menu {
+        margin-top: 30px;
+    }
+    .nav-menu li a:hover::after {
+        width: 30px;
+        height: 80px;
+    }
+    .header__phone p {
+        padding-left: 50px;
+        display: block;
+    }
+    .header__phone {
+        position: absolute;
+        top: 95px;
+        right: 15px;
+        z-index: 5;
+    }
+    .header__phone-inner {
+        margin-top: 0;
+    }
+    .social-media .box-tranform {
+        -moz-transform: unset;
+        -webkit-transform: unset;
+        transform: unset;
+        position: relative;
+        min-width: auto;
+        left: 0;
+        top: 0;
+    }
+    .header__banner .social-media {
+        width: 100%;
+        position: relative;
+    }
+    .header__banner .header__banner-photo {
+        width: 100%;
+        position: relative;
+    }
+    .box-tranform i {
+        -moz-transform: unset;
+        -webkit-transform: unset;
+        transform: unset;
+    }
+    .header__banner .social-media {
+        padding-left: 15px;
+        border-top: 1px solid #03b052;
+        padding: 5px 15px;
+    }
+    .social-media p {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .banner__wrap .h__content h6 {
+        font-size: 25px;
+    }
+    .banner__wrap .h__content h3 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .header__note ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+    }
+    .header__note li {
+        font-size: 17px;
+        line-height: 1.7;
+    }
+    .header__note li::before {
+        width: 12px;
+        height: 12px;
+        left: -18px;
+    }
+    .header__arrow .btn-slick:hover.prev::before {
+        background-image: url(../images/arrow-prev.png);
+        width: 67px;
+    }
+    .header__arrow .btn-slick:hover.next::after {
+        background-image: url(../images/arrow-next.png);
+        width: 67px;
+    }
+    .first-title h3 {
+        font-size: 35px;
+    }
+    .maintenance__content-title p {
+        font-size: 23px;
+        color: #03b052;
+    }
+    .list__row-name h6 {
+        font-size: 18px;
+    }
+    .maintenance__content-list .collum-70 p {
+        font-size: 17px;
+    }
+    .collum-service h5 {
+        font-size: 19px;
+        padding: 10px;
+    }
+    .ourwork__slide .collum-service {
+        padding-top: 10px;
+    }
+    .collum-service ul li {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .parallax .callme__phone a {
+        font-size: 18px;
+    }
+    .parallax .callme__phone p {
+        font-size: 18px;
+    }
+    .parallax .callme__phone {
+        padding: 10px 15px 5px 15px;
+    }
+    .parallax .callme__text {
+        margin-bottom: 15px;
+    }
+    .parallax .callme__text p {
+        font-size: 19px;
+    }
+    .parallax .callme__text span {
+        font-size: 17px;
+    }
+    .box__model-main li {
+        font-size: 19px;
+    }
+    .box__model {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .box__model {
+        padding: 20px 10px;
+    }
+    .box__model-main li:not(:first-child)::after {
+        top: 14px;
+        left: -8px;
+    }
+    .footer__wrapper {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box__model {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer__wrapper-social {
+        width: auto;
+    }
+    .footer__wrapper .social-media ul {
+        justify-content: center;
+    }
+    .footer__wrapper-gtg {
+        text-align: center;
+    }
+    .footer__wrapper-copyright {
+        width: 100%;
+    }
+    .header__scroll .header__phone {
+        display: none;
+    }
+    .ourwork__slide .collum-service {
+        padding-top: 10px;
+        width: 48%;
+    }
+    .ourwork__slide .collum-photo {
+        width: 50%;
+    }
+}
+
+@media (max-width: 835px) {
+    .maintenance__content-list .row__n:nth-child(3) {
+        margin-bottom: 32px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 778px) {
+    .maintenance__content-list .row__n:nth-child(3) {
+        margin-bottom: 32px;
+        margin-top: 15px;
+    }
+    .maintenance__content-list .row__n:nth-child(2) {
+        margin-top: 30px;
+        margin-bottom: 34px;
+    }
+}
+
+@media (max-width: 767px) {
+    .collum-service .click-title {
+        margin-left: 0;
+        position: absolute;
+        top: 20%;
+        z-index: 100;
+        left: 0;
+    }
+    .collum-service h5 {
+        font-size: 22px;
+        min-width: 420px;
+    }
+    .menu-mobile,
+    .phone-mobile {
+        display: block;
+    }
+    .header__scroll {
+        visibility: visible;
+        -webkit-backface-visibility: visible;
+    }
+    .header__scroll,
+    .header__scroll.active {
+        transform: initial;
+        background-color: #ffffff;
+        border-bottom: transparent;
+    }
+    .header__top {
+        display: none;
+    }
+    .nav-menu li a::before,
+    .nav-menu li a::after {
+        display: none;
+    }
+    .header__arrow {
+        display: none;
+    }
+    .phone-mobile a i {
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #03b052;
+    }
+    .phone-mobile a {
+        padding: 6px 18px 10px 18px;
+        background-color: #ffffff;
+        position: relative;
+        display: inline-block;
+        border: 1px solid #03b052;
+        font-size: 20px;
+    }
+    .link-panel {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: relative;
+        width: 56px;
+        height: 36px;
+        cursor: pointer;
+        z-index: 9999;
+    }
+    .link-panel .icon {
+        display: block;
+        position: relative;
+        width: 35px;
+        height: 3px;
+        background-color: #03b052;
+        transition: all 0.3s ease-in-out;
+    }
+    .link-panel .icon:before {
+        top: -12px;
+        width: 45px;
+    }
+    .link-panel .icon:after {
+        bottom: -12px;
+        width: 40px;
+    }
+    .link-panel .icon:before,
+    .link-panel .icon:after {
+        content: "";
+        height: 3px;
+        background-color: #03b052;
+        position: absolute;
+        left: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .header__nav.active {
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    .header__nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: -320px;
+        width: 320px;
+        height: 100%;
+        bottom: 0;
+        background-color: #343a40;
+        padding: 35px 15px;
+        overflow-y: scroll;
+        visibility: hidden;
+        z-index: 9;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        z-index: 99;
+        padding-top: 75px;
+    }
+    .header__nav ul {
+        flex-direction: column;
+        text-align: left;
+        padding-left: 35px;
+    }
+    .menu-mobile {
+        padding-top: 23px;
+    }
+    .phone-mobile {
+        padding-top: 22px;
+    }
+    .show-scroll .link-panel .icon:after {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+        width: 43px;
+    }
+    .show-scroll .link-panel .icon:before {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+        width: 43px;
+    }
+    .show-scroll .link-panel .icon {
+        width: 0;
+    }
+    .nav-menu li a {
+        color: #ffffff;
+    }
+    .nav-menu li {
+        margin-bottom: 20px;
+    }
+    .header__banner .social-media {
+        display: none;
+    }
+    .header__banner {
+        margin-top: 88px;
+    }
+    .header__banner-photo .is_desktop {
+        display: none;
+    }
+    .header__banner-photo .is_mobile {
+        display: block;
+    }
+    .header__note {
+        position: relative;
+        width: 90%;
+        background-color: #fae10a;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header__banner:before {
+        display: none;
+    }
+    .header__note li {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .header__note li::before {
+        width: 15px;
+        height: 15px;
+        left: -27px;
+    }
+    .header__note ul {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 50px;
+    }
+    .header__banner-bottom {
+        margin-top: -30px;
+    }
+    .header__banner {
+        padding-bottom: 0;
+    }
+    .maintenance__content-title {
+        text-align: center;
+    }
+    .maintenance__content-list .collum-70 {
+        width: 100%;
+        order: 1;
+    }
+    .maintenance__content-list .collum-30 {
+        width: 100%;
+        order: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .maintenance__content-list .row__n {
+        width: 45%;
+    }
+    .maintenance__content-list .row__n:nth-child(3) {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .maintenance__content-list .row__n:nth-child(2) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .ourwork-title h3 {
+        padding-left: 0;
+    }
+    .ourwork::before {
+        width: 100%;
+        height: 100%;
+        background-color: #f8f8f8;
+    }
+    .ourwork {
+        margin-bottom: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .ourwork-title {
+        margin-bottom: 25px;
+    }
+    .ourwork__slide .collum-service {
+        width: 100%;
+    }
+    .collum-service h5 {
+        font-size: 19px;
+        padding: 10px;
+        margin-left: 0;
+    }
+    .ourwork__slide .slick-initialized .slick-slide {
+        padding: 0;
+    }
+    .ourwork__slide .is_desktop {
+        display: none;
+    }
+    .ourwork__slide .is_mobile {
+        display: block;
+    }
+    .collum-service h5 {
+        font-size: 22px;
+    }
+    .click-title {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+    .ser__arrow {
+        display: none;
+    }
+    .parallax {
+        background-attachment: unset;
+        background-position: bottom;
+    }
+    .parallax .callme {
+        display: none;
+    }
+    .box__model-main li:nth-child(1),
+    .box__model-main li:nth-child(2),
+    .box__model-main li:nth-child(3) {
+        width: 30%;
+    }
+    .box__model-main li:nth-child(4),
+    .box__model-main li:nth-child(5),
+    .box__model-main li:nth-child(6) {
+        width: 20%;
+    }
+    .box__model-main li {
+        text-align: center;
+    }
+    .box__model-main ul {
+        justify-content: center;
+    }
+    .box__model-main li:nth-child(4)::after {
+        display: none;
+    }
+    .ourwork__slide .collum-photo {
+        width: 100%;
+    }
+    .contact__detail {
+        width: 100%;
+    }
+    .contact__wrapper .contact__photo {
+        width: 100%;
+    }
+    .contact__detail-title {
+        margin-top: 0;
+    }
+    .contact__detail-services ul {
+        margin-right: 0;
+    }
+    .contact__form-title h3 {
+        font-size: 28px;
+    }
+    .ouner-input {
+        width: 100%;
+    }
+    .wc-input {
+        font-size: 18px;
+    }
+    .control-button:hover::after {
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .box__model-main li:not(:first-child)::after {
+        left: 0%;
+    }
+}
+
+@media (max-width: 575px) {
+    .box__model-main li:nth-child(4),
+    .box__model-main li:nth-child(5),
+    .box__model-main li:nth-child(6) {
+        width: 40%;
+    }
+    .box__model-main li::after {
+        display: none;
+    }
+    .box__model-main li:nth-child(1),
+    .box__model-main li:nth-child(2),
+    .box__model-main li:nth-child(3) {
+        width: 40%;
+    }
+    .box__model-main li {
+        text-align: left;
+    }
+    .box__model-main ul {
+        justify-content: space-around;
+    }
+    .banner__wrap .h__content {
+        left: 15px;
+    }
+    .p__row .collum-25 {
+        width: 49%;
+    }
+    .p__row .collum-50 {
+        width: 100%;
+    }
+    .portfolio__wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .portfolio__wrapper .p__row .p__collum {
+        margin-bottom: 2%;
+    }
+    .contact__wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact__detail-title h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .contact__detail .callme__text p {
+        font-size: 25px;
+    }
+    .contact__detail-services ul li {
+        font-size: 17px;
+    }
+    .contact__detail-services ul {
+        padding: 20px 45px;
+    }
+    .free-est ul li {
+        font-size: 19px;
+    }
+    .wc-input {
+        padding: 0 15px;
+    }
+    .collum-service h5 {
+        font-size: 22px;
+        min-width: auto;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 413px) {
+    .banner__wrap .h__content h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .header__note li {
+        font-size: 18px;
+    }
+    .header__note ul {
+        padding-left: 40px;
+    }
+    .first-title h3 {
+        font-size: 30px;
+    }
+    .maintenance__content-list .row__n {
+        width: 50%;
+    }
+    .collum-service h5 {
+        font-size: 20px;
+    }
+    .box__model-top h3:after,
+    .box__model-top h3::before {
+        display: none;
+    }
+    .footer__wrapper .text-size p {
+        font-size: 17px;
+    }
+    .footer__wrapper .social-media ul {
+        margin-bottom: 15px;
+    }
+    .footer__wrapper {
+        padding: 25px 0 10px 0;
+    }
+    .phone-mobile a {
+        padding: 4px 15px 8px 15px;
+    }
+}
+
+@media (max-width: 374px) {
+    .header__logo a {
+        padding: 20px 0px;
+    }
+    .link-panel .icon:before {
+        top: -12px;
+        width: 43px;
+    }
+    .link-panel {
+        width: 45px;
+    }
+    .phone-mobile {
+        padding-top: 24px;
+    }
+    .menu-mobile {
+        padding-top: 25px;
+    }
+    .header__note {
+        width: 98%;
+    }
+    .header__note li {
+        font-size: 17px;
+    }
+    .maintenance {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .maintenance__content-list .row__n {
+        width: 100%;
+    }
+    .maintenance__content-list .row__n:nth-child(2) {
+        margin-bottom: 10px;
+    }
+    .maintenance__content-list .row__n:nth-child(3) {
+        margin-bottom: 10px;
+    }
+    .ourwork {
+        padding-top: 15px;
+    }
+    .collum-service h5 {
+        top: 15%;
+    }
+    .ourwork__slide {
+        margin-top: 30%;
+    }
+    .box__model-main li {
+        font-size: 17px;
+    }
+    .box__model-top h3 {
+        font-size: 25px;
+    }
+    .box__model {
+        padding: 15px 10px;
+    }
+    .banner__wrap .h__content h6 {
+        font-size: 23px;
+    }
+    .free-est ul {
+        flex-direction: column;
+    }
+    .contact__detail-title {
+        text-align: center;
+    }
+    .contact__detail .callme__text {
+        text-align: center;
+    }
+    .callme__phone {
+        text-align: center;
+    }
+}

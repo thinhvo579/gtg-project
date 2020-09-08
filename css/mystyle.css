@@ -1,0 +1,1303 @@
+@font-face {
+  font-family: "UTM Avo";
+  src: url("../fonts/UTMAvo/UTMAvo.eot");
+  src: url("../fonts/UTMAvo/UTMAvo.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/UTMAvo/UTMAvo.woff2") format("woff2"),
+    url("../fonts/UTMAvo/UTMAvo.woff") format("woff"),
+    url("../fonts/UTMAvo/UTMAvo.ttf") format("truetype"),
+    url("../fonts/UTMAvo/UTMAvo.svg#UTMAvo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "UTM Avo";
+  src: url("../fonts/UTMAvoBold/UTMAvoBold.eot");
+  src: url("../fonts/UTMAvoBold/UTMAvoBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/UTMAvoBold/UTMAvoBold.woff2") format("woff2"),
+    url("../fonts/UTMAvoBold/UTMAvoBold.woff") format("woff"),
+    url("../fonts/UTMAvoBold/UTMAvoBold.ttf") format("truetype"),
+    url("../fonts/UTMAvoBold/UTMAvoBold.svg#UTMAvoBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Century Schoolbook";
+  src: url("../fonts/CenturySchoolbook/CenturySchoolbook.eot");
+  src: url("../fonts/CenturySchoolbook/CenturySchoolbook.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CenturySchoolbook/CenturySchoolbook.woff2") format("woff2"),
+    url("../fonts/CenturySchoolbook/CenturySchoolbook.woff") format("woff"),
+    url("../fonts/CenturySchoolbook/CenturySchoolbook.ttf") format("truetype"),
+    url("../fonts/CenturySchoolbook/CenturySchoolbook.svg#CenturySchoolbook")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "UTM Avo";
+}
+
+.auto-container {
+  max-width: 1722px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header__top-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__logo a {
+  display: block;
+  width: 270px;
+  height: 115px;
+  background-color: #ffffff;
+  align-items: center;
+  vertical-align: middle;
+  display: flex;
+}
+
+.nav-menu {
+  margin-top: 38px;
+}
+
+.header__phone-inner {
+  margin-top: 35px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-menu li {
+  font-size: 21px;
+}
+
+.nav-menu li a {
+  color: #111111;
+  text-transform: uppercase;
+  font-family: "Century Schoolbook";
+  position: relative;
+}
+
+.nav-menu li a::before,
+.nav-menu li a::after {
+  position: absolute;
+  content: "";
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.nav-menu li a::before {
+  height: 2px;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  bottom: -3px;
+  background-color: #03b052;
+  z-index: 1;
+  width: 0;
+}
+
+.nav-menu li a::after {
+  width: 40px;
+  top: 58%;
+  left: 50%;
+  background-color: #fae10a;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  z-index: -1;
+  height: 0;
+}
+
+.nav-menu li a:hover::before {
+  width: 26px;
+}
+
+.nav-menu li a:hover::after {
+  height: 115px;
+}
+
+.nav-menu .active a::before {
+  width: 26px;
+}
+
+.nav-menu .active a::after {
+  height: 115px;
+}
+
+.header__phone-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__nav {
+  width: 50%;
+  display: inline-block;
+}
+
+.header__phone p {
+  font-size: 21px;
+  color: #111111;
+  font-family: "Century Schoolbook";
+  margin-bottom: 0;
+  height: 40px;
+  display: block;
+  width: 166px;
+  text-align: center;
+  line-height: 39px;
+  position: relative;
+  padding-left: 38px;
+}
+
+.header__phone p:after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: 6px;
+  left: 9px;
+  background-image: url(../images/phone.png);
+}
+
+.header__phone p::before {
+  position: absolute;
+  content: "";
+  width: 165px;
+  height: 40px;
+  top: 0;
+  left: 20px;
+  background-image: url(../images/phone-border.png);
+  z-index: -1;
+}
+
+.header__phone a {
+  font-size: 23px;
+  font-weight: bold;
+  color: #03b052;
+  margin-left: 12px;
+  position: relative;
+}
+
+.header__phone a:hover {
+  color: #03b052;
+}
+
+.header__banner {
+  position: relative;
+  padding-bottom: 95px;
+}
+
+.header__banner:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 52%;
+  background-color: #f5f5f5;
+  z-index: -1;
+}
+
+.header__banner .social-media {
+  width: 6.042%;
+  position: relative;
+}
+
+.header__banner .header__banner-photo,
+.header__banner .banner__internal {
+  width: 93.958%;
+  position: relative;
+}
+
+.social-media .box-tranform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  left: 53%;
+  top: 49%;
+  position: absolute;
+  min-width: 305px;
+}
+
+.social-media ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-media p {
+  color: #0e0d09;
+  font-size: 21px;
+  font-family: "Century Schoolbook";
+  margin-right: 19px;
+}
+
+.social-media li a {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border: 1px solid #03b052;
+  border-radius: 50%;
+  margin: 0 8px;
+  display: block;
+  color: #03b052;
+}
+
+.social-media li a:hover {
+  color: #ffffff;
+  background-color: #03b052;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media li a i {
+  line-height: 30px;
+}
+
+.box-tranform i {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.banner__wrap .h__content {
+  color: #ffffff;
+  position: absolute;
+  top: 62.5%;
+  transform: translateY(-50%);
+  left: 7.5%;
+}
+
+.header__banner.header__internal .social-media .box-tranform {
+  left: 53%;
+  top: 41%;
+}
+
+.banner__wrap .h__content h6 {
+  font-size: 37.5px;
+  line-height: 1;
+}
+
+.banner__wrap .h__content h3 {
+  font-size: 53px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 17px;
+}
+
+#header {
+  position: relative;
+}
+
+.header__banner-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__note {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 39.6%;
+  background-color: #fae10a;
+}
+
+.header__note ul {
+  list-style: none;
+  margin-bottom: 0;
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-left: 68px;
+}
+
+.header__note ul::after {
+  position: absolute;
+  content: "";
+  width: 247px;
+  height: 111px;
+  top: -22px;
+  right: 26px;
+  background-image: url(../images/dots-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__note li {
+  color: #111111;
+  line-height: 1.95;
+  font-size: 22px;
+  font-family: "Century Schoolbook";
+  text-transform: uppercase;
+  position: relative;
+}
+
+.header__note li::before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  top: 5px;
+  left: -30px;
+  background-image: url(../images/check-list.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header__arrow {
+  position: relative;
+  top: 45px;
+}
+
+.header__arrow-arrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header__arrow .btn-slick {
+  width: 103px;
+  height: 14px;
+  display: block;
+  position: relative;
+  margin: 0 10px;
+}
+
+.header__arrow .btn-slick::before,
+.header__arrow .btn-slick::after {
+  position: absolute;
+  content: "";
+  width: 67px;
+  height: 14px;
+  top: 0;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__arrow .btn-slick.prev::before {
+  background-image: url(../images/arrow-prev.png);
+  right: 0;
+}
+
+.header__arrow .btn-slick.next::after {
+  background-image: url(../images/arrow-next.png);
+  left: 0;
+}
+
+.header__arrow .btn-slick:hover.prev::before {
+  background-image: url(../images/arrow-prev-h.png);
+  width: 103px;
+}
+
+.header__arrow .btn-slick:hover.next::after {
+  background-image: url(../images/arrow-next-h.png);
+  width: 103px;
+}
+
+.first-title h3 {
+  color: #03b052;
+  font-size: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.maintenance__content {
+  padding-left: 212px;
+  padding-right: 212px;
+}
+
+.maintenance__content-title {
+  margin-bottom: 42px;
+}
+
+.maintenance__content-title p {
+  font-size: 26px;
+  color: #03b052;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.maintenance__content-list {
+  justify-content: space-between;
+}
+
+.maintenance__content-list .collum-30 {
+  width: 25%;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.maintenance__content-list .row__n {
+  margin-bottom: 11px;
+}
+
+.maintenance__content-list .collum-70 {
+  width: 71.5%;
+}
+
+.maintenance__content-list .collum-70 p {
+  color: #111111;
+  font-size: 21px;
+  font-family: "Century Schoolbook";
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.maintenance__content-list .collum-70 p span {
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.list__row {
+  justify-content: space-between;
+}
+
+.list__row-name {
+  position: relative;
+}
+
+.list__row-name h6 {
+  font-size: 24px;
+  color: #03b052;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  left: 0;
+}
+
+.maintenance {
+  padding-top: 63px;
+  padding-bottom: 70px;
+}
+
+.list__row-icon {
+  width: 32%;
+}
+
+.list__row-name {
+  width: 68%;
+}
+
+.ourwork__slide {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ourwork__slide .collum-photo {
+  width: 62%;
+}
+
+.ourwork__slide .collum-service {
+  width: 38%;
+  padding-top: 57px;
+  padding-right: 212px;
+}
+
+.ourwork-title {
+  position: relative;
+  margin-top: 22px;
+  margin-bottom: 26px;
+}
+
+.ourwork-title h3 {
+  color: #111111;
+  text-align: center;
+  padding-left: 23%;
+}
+
+.collum-service h5 {
+  position: relative;
+  z-index: 1;
+  padding: 21px;
+  font-size: 34px;
+  color: #ffffff;
+  background-color: #03b052;
+  font-family: "Century Schoolbook";
+  border-left: 3px solid #fae10a;
+}
+
+.collum-service .click-title {
+  margin-left: -73%;
+}
+
+.collum-service ul {
+  margin-top: 24px;
+}
+
+.collum-service ul li {
+  font-size: 21px;
+  color: #111111;
+  font-family: "Century Schoolbook";
+  line-height: 2;
+}
+
+.ourwork {
+  position: relative;
+  margin-bottom: 95px;
+}
+
+.ourwork::before {
+  position: absolute;
+  content: "";
+  width: 49.5%;
+  height: 86%;
+  top: 0;
+  left: 0;
+  background-color: #453e4b;
+  z-index: -1;
+}
+
+.ser__arrow {
+  margin-top: 40px;
+}
+
+.ser__arrow-arrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+.ser__arrow-arrow .btn-slick {
+  position: relative;
+  display: block;
+  width: 57px;
+  height: 14px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 10px;
+}
+
+.ser__arrow-arrow .prev {
+  background-image: url(../images/ser-arrow-prev.png);
+}
+
+.ser__arrow-arrow .next {
+  background-image: url(../images/ser-arrow-next.png);
+}
+
+.parallax {
+  height: 370px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../images/home-parallax.jpg);
+  position: relative;
+}
+
+.parallax:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.2);
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.parallax .callme {
+  font-family: "Century Schoolbook";
+  color: #111111;
+  background-color: #fae10a;
+  text-align: center;
+  position: absolute;
+  right: 17%;
+  top: 28%;
+  width: 240px;
+  display: block;
+  padding: 20px 10px 10px 10px;
+  z-index: 20;
+}
+
+.parallax .callme__text {
+  margin-bottom: 22px;
+}
+
+.parallax .callme__text span {
+  font-size: 20px;
+}
+
+.parallax .callme__text p {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.parallax .callme__phone {
+  padding: 22px 15px 14px 15px;
+  background-color: #ffef61;
+  position: relative;
+}
+
+.parallax .callme__phone::after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  top: -15px;
+  width: 26px;
+  height: 26px;
+  background-image: url(../images/phone-icon-yl.png);
+}
+
+.parallax .callme__phone a {
+  font-weight: bold;
+  font-size: 22px;
+  color: #111111;
+  text-decoration: none;
+}
+
+.parallax .callme__phone p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 43px 212px;
+}
+
+.free-estimates {
+  margin-top: -92px;
+  position: relative;
+}
+
+.box__model {
+  position: relative;
+  z-index: 19;
+  padding: 30px 50px;
+  border: 1px solid #c4c3c3;
+  -moz-box-shadow: 0 1px 3px 3px rgba(196, 195, 195, 0.2);
+  -webkit-box-shadow: 0 1px 3px 3px rgba(196, 195, 195, 0.2);
+  box-shadow: 0 1px 3px 3px rgba(196, 195, 195, 0.2);
+  background-color: #ffffff;
+  margin-left: 212px;
+  margin-right: 385px;
+}
+
+.box__model-top {
+  text-align: center;
+}
+
+.box__model-top h3 {
+  display: inline-block;
+  font-size: 32px;
+  color: #03b052;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.box__model-top h3:after,
+.box__model-top h3::before {
+  position: absolute;
+  content: "";
+  top: 55%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 61px;
+  height: 2px;
+}
+
+.box__model-top h3:after {
+  left: -70px;
+  background-image: url(../images/free-left.png);
+}
+
+.box__model-top h3::before {
+  background-image: url(../images/free-right.png);
+  right: -70px;
+}
+
+.box__model-main ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box__model-main li {
+  color: #453e4b;
+  font-size: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.box__model-main li:not(:first-child)::after {
+  position: absolute;
+  content: "";
+  left: -14px;
+  top: 18px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #453e4b;
+}
+
+.footer__wrapper .text-size p {
+  color: #787878;
+  font-size: 19px;
+  font-family: "Century Schoolbook";
+}
+
+.footer__wrapper .text-size a {
+  color: #787878;
+  font-size: 19px;
+  font-family: "Century Schoolbook";
+  font-weight: bold;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+.footer__wrapper .text-size a:hover {
+  color: #03b052;
+}
+
+.footer__wrapper .social-media li:first-child a {
+  margin-left: 0;
+}
+
+.header__scroll {
+  width: 100%;
+  visibility: visible;
+  z-index: 999;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -moz-transition: -moz-transform 0.6s ease;
+  transition: transform 0.6s ease;
+  background-color: #ffffff;
+  border-bottom: 1px solid #03b052;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__scroll.active {
+  transform: translateY(0);
+  box-shadow: 1px 2px 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.menu-mobile,
+.phone-mobile {
+  display: none;
+}
+
+.header__banner-photo .is_mobile {
+  display: none;
+}
+
+.ourwork__slide .is_mobile {
+  display: none;
+}
+
+.header__banner.header__internal {
+  padding-bottom: 0;
+}
+
+.header__banner.header__internal:before {
+  display: none;
+}
+
+.portfolio__wrapper {
+  padding-left: 6.042%;
+  padding-right: 6.042%;
+}
+
+.portfolio__wrapper .p__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio__wrapper .p__row .p__collum {
+  margin-bottom: 1%;
+}
+
+.p__row .collum-25 {
+  width: 24.2%;
+}
+
+.p__row .collum-50 {
+  width: 49.467%;
+}
+
+.img-overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  opacity: 0.75;
+  position: absolute;
+  background-color: #000;
+  opacity: 0;
+  transition: 0.25s ease-in-out;
+  pointer-events: none;
+}
+
+.p__collum-photo:hover .img-overlay {
+  width: 100%;
+  opacity: 0.75;
+  pointer-events: none;
+}
+
+.p__collum-photo {
+  position: relative;
+}
+
+.p__collum-photo a {
+  position: relative;
+}
+
+.p__collum-photo a:after {
+  position: absolute;
+  content: "";
+  width: 43px;
+  height: 43px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  z-index: 5;
+  background-image: url(../images/portfolio-icon.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.p__collum-photo:hover a::after {
+  opacity: 1;
+}
+
+.contact__detail {
+  width: 32.5%;
+}
+
+.contact__detail-title h3 {
+  font-size: 45px;
+  color: #03b052;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.contact__detail .callme__text {
+  margin-bottom: 15px;
+}
+
+.contact__detail .callme__text span {
+  color: #111111;
+  font-size: 24px;
+  font-family: "Century Schoolbook";
+}
+
+.contact__detail .callme__text p {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Century Schoolbook";
+  color: #03b052;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.contact__detail .callme__phone p {
+  font-size: 24px;
+  color: #111111;
+  font-family: "Century Schoolbook";
+}
+
+.contact__detail .callme__phone p a {
+  font-size: 44px;
+  font-weight: bold;
+  color: #111111;
+  letter-spacing: 0.8px;
+}
+
+.contact-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact__wrapper {
+  padding-left: 212px;
+  padding-right: 212px;
+}
+
+.contact__wrapper .contact__photo {
+  width: 63.5%;
+  text-align: right;
+  margin-right: 33px;
+}
+
+.contact__detail-title {
+  margin-top: -17px;
+}
+
+.contact__detail-services ul {
+  background-color: #fae10a;
+  margin-right: -115px;
+  position: relative;
+  padding: 25px 60px;
+  list-style: none;
+}
+
+.contact__detail-services ul li {
+  color: #111111;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Century Schoolbook";
+  position: relative;
+  line-height: 1.9;
+}
+
+.contact__detail-services ul li:before {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  top: 7px;
+  left: -30px;
+  background-image: url(../images/check-list.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contact__detail-services ul::after {
+  position: absolute;
+  content: "";
+  width: 247px;
+  height: 111px;
+  top: 50%;
+  right: -36%;
+  background-image: url(../images/contact-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.free-est h5 {
+  font-size: 32px;
+  color: #03b052;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.free-est ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+}
+
+.free-est ul li {
+  font-size: 27px;
+  color: #131313;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.free-est ul li:not(:nth-child(2)):after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  top: 50%;
+  left: -14px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  background-color: #131313;
+  border-radius: 50%;
+}
+
+.contact__form-title h3 {
+  font-size: 45px;
+  color: #03b052;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wc-input {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  line-height: 1;
+  height: 64px;
+  border: 1px solid #8f8f8f;
+  font-size: 20px;
+  color: #111111;
+  padding: 0 20px;
+  margin-bottom: 14px;
+  font-family: "Century Schoolbook";
+}
+
+.control-input {
+  overflow: hidden;
+  margin-bottom: 5px;
+  /* display: flex;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+
+.ouner-input {
+  width: 33.333%;
+  padding: 0 7px;
+}
+
+.contact-input {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -7px;
+}
+
+.ouner-textarea .wc-input {
+  height: 150px;
+  padding: 20px;
+}
+
+.ouner-textarea {
+  width: 100%;
+  padding: 0 7px;
+}
+
+.control-button {
+  display: inline-block;
+  position: relative;
+  width: 175px;
+  height: 62px;
+  background-color: #03b052;
+  z-index: 0;
+}
+
+.control-button::after {
+  position: absolute;
+  content: "";
+  width: 56px;
+  height: 43px;
+  background-color: #fae10a;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  left: -2px;
+  pointer-events: none;
+  z-index: -1;
+  transition: width 0.4s;
+}
+
+.control-button::before {
+  position: absolute;
+  content: "SUBMIT";
+  font-size: 23px;
+  text-transform: uppercase;
+  font-family: "Century Schoolbook";
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.control-button::first-letter {
+  color: #03b052;
+}
+
+.control-button:hover::after {
+  width: 102%;
+  transition: width 0.4s;
+}
+
+.control-button .wc-button {
+  width: 166px;
+  height: 55px;
+  border: none;
+  font-size: 0;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 5;
+  position: relative;
+}
+
+/* .control-button p {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: "Century Schoolbook";
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    z-index: 1;
+} */
+
+.control-button p::first-letter {
+  color: #03b052;
+}
+
+.contact-button {
+  text-align: center;
+}
+
+.contact__detail-contact {
+  margin-bottom: 38px;
+}
+
+.free-est {
+  margin-top: 65px;
+}
+
+.contact__form-title {
+  margin-bottom: 35px;
+}
+
+.wc-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #111111;
+}
+
+.wc-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #111111;
+}
+
+.wc-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #111111;
+}
+
+.wc-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #111111;
+}
+
+.page-id-57 #footer,
+.page-id-55 #footer {
+  background-color: #f0efef;
+}
+
+.work-photo {
+  width: 50%;
+}
+
+.ourwork__slide .collum-photo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.collum-service .slick-dots {
+  margin-bottom: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.collum-service .slick-dots .slick-active {
+  background-color: #03b052;
+}
+
+.collum-service .slick-dots li {
+  display: block;
+  background: #898989;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border: 50%;
+  align-items: center;
+  outline: none;
+  position: relative;
+  width: 11px;
+  height: 11px;
+  margin: 0 10px;
+}
+
+.collum-service .slick-dots li button {
+  font-size: 0;
+  border: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  opacity: 0;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.header__banner.header__internal .h__content:after {
+  position: absolute;
+  left: -100%;
+  top: -7px;
+  content: "";
+  width: 222%;
+  height: 110%;
+  background: rgba(3, 176, 82, 0.3);
+  z-index: -1;
+  pointer-events: none;
+}

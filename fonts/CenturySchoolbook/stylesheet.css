@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Century Schoolbook';
+    src: url('CenturySchoolbook.eot');
+    src: url('CenturySchoolbook.eot?#iefix') format('embedded-opentype'),
+        url('CenturySchoolbook.woff2') format('woff2'),
+        url('CenturySchoolbook.woff') format('woff'),
+        url('CenturySchoolbook.ttf') format('truetype'),
+        url('CenturySchoolbook.svg#CenturySchoolbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
